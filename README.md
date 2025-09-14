@@ -26,12 +26,20 @@ L’étude combine **méthodes économétriques classiques** et **approches Mach
 - Le modèle Random Forest confirme ces variables comme prédictives majeures.
 - Les clusters révèlent des groupes distincts d’étudiants avec vulnérabilités différenciées.
 
-## 📘 Rapport complet
-- [📄 Lire le rapport HTML](report/rapport_OVE.html)  
-- [⬇️ Télécharger le PDF](report/rapport_OVE.pdf)
+## 📊 Résultats Machine Learning
 
-## 🖼️ Exemples de visualisations
-![Courbe ROC - Random Forest](results/roc_randomforest.png)  
-![Clustering K-means](results/clustering_kmeans.png)
+### Visualisations
+- Facteurs associés à la santé mentale (logit binaire)  
+![Forest Plot – Logit](results/figures/forest_plot_logit.png)
+
+- Clustering K-means des étudiants  
+![Clusters K-means](results/figures/clustering_kmeans.png)
+
+### Tableaux de performance
+- Matrice de confusion – Random Forest  
+![Confusion Matrix RF](results/tables/confusion_matrix_rf.png)
+
+- Indicateurs de performance (Accuracy, AUC, F1, etc.)  
+![Performance RF](results/tables/performance_rf.png)
 
 ---
