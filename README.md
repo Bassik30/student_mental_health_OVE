@@ -29,10 +29,10 @@ L’étude combine **méthodes économétriques classiques** et **approches Mach
 ### 1. Résultats économétriques
 
 - **Santé mentale (logit binaire)**  
-![Forest Plot – Santé mentale](results/figures/forest_plot_logit.png)
+![Forest Plot – Santé mentale](results/forest_plot_logit.png)
 
 - **Santé générale (logit ordinal)**  
-![Santé générale prédite](results/figures/sante_generale_predite.png)
+![Santé générale prédite](results/sante_generale_predite.png)
 
 ---
 
@@ -40,18 +40,17 @@ L’étude combine **méthodes économétriques classiques** et **approches Mach
 
 #### 🔹 Random Forest
 - Courbe ROC  
-![Courbe ROC – Random Forest](results/figures/roc_randomforest.png)
+![Courbe ROC – Random Forest](results/roc_randomforest.png)
 
 - Matrice de confusion  
-![Matrice de confusion – RF](results/tables/confusion_matrix_rf.png)  
 [Télécharger en CSV](results/confusion_matrix_rf.csv)
 
 - Indicateurs de performance  
-![Performance RF](results/tables/performance_rf.png)
+![Performance RF](results/performance_random_forest.csv)
 
 #### 🔹 Clustering K-means
 - Visualisation des clusters  
-![Clustering K-means](results/figures/clustering_kmeans.png)
+![Clustering K-means](results/clustering_kmeans.png)
 
 ---
 
