@@ -21,10 +21,37 @@ L’étude combine **méthodes économétriques classiques** et **approches Mach
 4. **Modèle non supervisé** :
    - Clustering K-means (profils-types d’étudiants)
 
-## 📈 Résultats clés
-- Les difficultés financières, le revenu parental et la satisfaction du logement sont les principaux déterminants de la santé mentale.
-- Le modèle Random Forest confirme ces variables comme prédictives majeures.
-- Les clusters révèlent des groupes distincts d’étudiants avec vulnérabilités différenciées.
+## 📊 Résultats clés
+
+### 1. Facteurs associés (modèles économétriques)
+
+- **Santé mentale (logit binaire)**  
+![Forest Plot – Santé mentale](results/figures/forest_plot_logit.png)
+
+- **Santé générale (logit ordinal)**  
+![Facteurs associés – Santé générale](results/figures/factors_sante_generale.png)
+
+---
+
+### 2. Machine Learning – Random Forest
+
+- **Courbe ROC et AUC**  
+![Courbe ROC – Random Forest](results/figures/roc_randomforest.png)
+
+- **Matrice de confusion**  
+![Matrice de confusion – RF](results/tables/confusion_matrix_rf.png)  
+[Télécharger en CSV](results/confusion_matrix_rf.csv)
+
+- **Indicateurs de performance (Accuracy, AUC, F1, etc.)**  
+![Performance RF](results/tables/performance_rf.png)
+
+---
+
+### 3. Machine Learning – Clustering K-means
+
+- **Segmentation en 3 clusters**  
+![Clustering K-means](results/figures/clustering_kmeans.png)
+
 
 ## 📊 Résultats Machine Learning
 
