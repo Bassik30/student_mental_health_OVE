@@ -46,7 +46,7 @@ L’étude combine **méthodes économétriques classiques** et **approches Mach
 [Télécharger en CSV](results/confusion_matrix_rf.csv)
 
 - Indicateurs de performance  
-![Performance RF](results/performance_random_forest.csv)
+[Télécharger en CSV](results/performance_random_forest.csv)
 
 #### 🔹 Clustering K-means
 - Visualisation des clusters  
