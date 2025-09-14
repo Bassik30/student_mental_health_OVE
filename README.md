@@ -9,7 +9,7 @@ L’étude combine **méthodes économétriques classiques** et **approches Mach
 - **scripts/** : code R pour analyses et modèles
 - **results/** : figures et tableaux exportés
 - **report/** : rapport complet (HTML/PDF)
-- **README.md** : ce fichier
+
 
 ## 🔎 Méthodologie
 1. **Analyse descriptive** : profils étudiants, santé mentale et conditions de vie.  
